@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Doctor Appointment Booking System for Project Submission",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./src/index"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/MeRohit0/Doctor-Appointment-Booking-System/issues"
   },
-  "homepage": "https://github.com/MeRohit0/Doctor-Appointment-Booking-System#readme"
+  "homepage": "https://github.com/MeRohit0/Doctor-Appointment-Booking-System#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0"
+  }
 }
